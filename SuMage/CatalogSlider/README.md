@@ -6,10 +6,10 @@ A FREE Magento 2 module to create and manage product sliders.
 	-	**New Products**
 	-	**Bestsellers Products**
 	-	**Most Viewed Products**
-        -       **Most Rated Products**
+    -   **Most Rated Products**
 	-	**Featured Products**
 	-	**Special Price Products**
-        -       **Recently Viewed Products**
+    -   **Recently Viewed Products**
 
 
 Or **mix and match** with the ones you want, or just make a **custom slider**. Choices. Good to have them.
@@ -49,4 +49,4 @@ bin/magento setup:upgrade
   	- bin/magento setup:upgrade
 
 <h2>Step 3</h2>
-- Login to Magento admin and enable extension at the JakeSharp => Settings => General => Enable
+- Login to Magento admin and enable extension at the "Sumage all in one slider" => Settings => General => Enable
