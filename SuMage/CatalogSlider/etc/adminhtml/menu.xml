@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © 2017 sushant Kumar (sushant693@gmail.com) All rights reserved.
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend/etc/menu.xsd">
+    <menu>
+        <add id="SuMage_CatalogSlider::admin" title="SuMage All in one slider" module="SuMage_CatalogSlider" sortOrder="70" resource="SuMage_CatalogSlider::admin" />
+        <add id="SuMage_CatalogSlider::catalogslider" title="Catalog Slider" module="SuMage_CatalogSlider" resource="SuMage_CatalogSlider::catalogslider" parent="SuMage_CatalogSlider::admin" />
+        <add id="SuMage_CatalogSlider::manage_sliders" title="Manage Catalog Slider" module="SuMage_CatalogSlider" resource="SuMage_CatalogSlider::manage_sliders" parent="SuMage_CatalogSlider::catalogslider" action="catalogslider/slider/index"/>
+        <add id="SuMage_CatalogSlider::config" title="Settings" module="SuMage_CatalogSlider" resource="SuMage_CatalogSlider::config" sortOrder="20" parent="SuMage_CatalogSlider::catalogslider" action="adminhtml/system_config/edit/section/catalogslider"/>
+    </menu>
+</config>

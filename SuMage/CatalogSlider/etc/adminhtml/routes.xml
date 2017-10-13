@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 sushant Kumar (sushant693@gmail.com) All rights reserved.
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes">
+    <router id="admin">
+        <route id="catalogslider" frontName="catalogslider">
+            <module name="SuMage_CatalogSlider"/>
+        </route>
+    </router>
+</config>
