@@ -475,12 +475,12 @@ class Items extends \Magento\Catalog\Block\Product\AbstractProduct
     public function getSliderProductsCollection()
     {
         $collection = [];
-        $featuredProducts = $this->getSliderFeaturedProducts();
+  //      $featuredProducts = $this->getSliderFeaturedProducts();
         $sliderProducts = $this->getSliderProducts();
-        if(count($featuredProducts)>0){
+   /*     if(count($featuredProducts)>0){
             $collection['featured'] = $featuredProducts;
         }
-
+*/
         if(count($sliderProducts)>0){
             $collection['products'] = $sliderProducts;
         }
