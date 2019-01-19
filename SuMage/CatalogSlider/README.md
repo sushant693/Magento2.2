@@ -1,3 +1,5 @@
+
+
 # ProductSliderM2
 A FREE Magento 2 module to create and manage product sliders.
 
@@ -14,6 +16,8 @@ A FREE Magento 2 module to create and manage product sliders.
 
 Or **mix and match** with the ones you want, or just make a **custom slider**. Choices. Good to have them.
 
+# SUPPORT
+It supports magento version 2.0,2.1,2.2,2.3(latest).
 
 # Features:
 - ⏱ **Schedule slider** - Publish on specific date and time
