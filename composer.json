@@ -18,5 +18,7 @@
     "psr-4": {
       "SuMage\\CatalogSlider\\": ""
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
