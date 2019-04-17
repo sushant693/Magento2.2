@@ -48,9 +48,9 @@ bin/magento setup:upgrade
 	- clone module with: <strong>git clone  .</strong>
 
 <h2>Step 2</h2>
-- In magento root directory run following comands into the command line:
-	- bin/magento module:enable SuMage_CatalogSlider
-  	- bin/magento setup:upgrade
+- In magento root directory run following comands into the command line:</br>
+	- bin/magento module:enable SuMage_CatalogSlider</br>
+  	- bin/magento setup:upgrade</br>
 
 <h2>Step 3</h2>
 - Login to Magento admin and enable extension at the "Sumage all in one slider" => Settings => General => Enable
