@@ -10,7 +10,7 @@
       "role": "Created this extension"
     }
   ],
-  
+  "minimum-stability": "dev",
   "type": "magento2-module",
     "version": "1.1.1",
     "license": [
